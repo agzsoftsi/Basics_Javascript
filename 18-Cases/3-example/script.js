@@ -21,9 +21,8 @@ const buscarData = document.getElementById('mostrar-btn').addEventListener('clic
       console.error(err);
       return err;
     });
-
   function mostrarData(name, picture) {
     namePoke.innerText = name;
     picturePoke.innerHTML = `<img src='${picture}');>`;
-  }
+  };
 });
