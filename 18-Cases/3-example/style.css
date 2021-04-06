@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+
+}
+.main-div {
+    background: rgb(119, 187, 252);
+    text-align: center;
+    padding: 10px;
+}
+
+.main-div h1 {
+    color: rgb(233, 233, 233);
+
+}
+
+.main-div > p {
+    color: rgb(233, 233, 233);
+    margin: 20px 0px;
+}
+
+.pictures-div{
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+#mostrar-btn {
+    background-color: rgb(83, 90, 95);
+    padding: 10px;
+    color: blanchedalmond;
+}
+
+#pokename {
+    background-color: rgb(83, 90, 95);
+    height: 30px;
+    color: blanchedalmond;
+}
+
+.data-poke {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
