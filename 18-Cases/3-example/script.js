@@ -3,7 +3,7 @@
   */
 // eslint-disable-next-line no-unused-vars
 const buscarData = document.getElementById('mostrar-btn').addEventListener('click', () => {
-// declarar la URL
+  // declarar la URL
   const url = 'https://pokeapi.co/api/v2/pokemon/';
   const pokemon = (document.getElementById('pokename').value).toLowerCase();
   const namePoke = document.getElementById('name-poke');
@@ -24,5 +24,5 @@ const buscarData = document.getElementById('mostrar-btn').addEventListener('clic
   function mostrarData(name, picture) {
     namePoke.innerText = name;
     picturePoke.innerHTML = `<img src='${picture}');>`;
-  };
+  }
 });
