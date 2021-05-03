@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous">
+    </script>
     <title>Jquery Test</title>
 </head>
 <body>
@@ -14,5 +18,13 @@
         <p id='id-text-3' class='class-text-3'>Text3</p>
         <p id='id-text-4' class='class-text-4'>Text4</p>
     </div>
+
+    <script>
+        // Task 1 - Script that execute code only when the DOM is loaded
+        $(document).ready(function(){
+            console.log('The DOM already Loaded');
+            
+        });
+    </script>
 </body>
 </html>
