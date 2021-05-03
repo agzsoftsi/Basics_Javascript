@@ -80,3 +80,19 @@ const processArray6 = (arr2) => {
   };
 
   processArray6([NaN, 'carlos', 5, 1, 'dos', 4, null, undefined, NaN]); */
+
+
+const dato = function() {
+  let con = 0;
+
+  return function incre(){
+    return con++;
+  }
+}
+
+const closure = dato() ;
+console.log(closure());
+console.log(closure());
+console.log(closure());
+
+
