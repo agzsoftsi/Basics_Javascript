@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <title>Jquery Test</title>
+</head>
+<body>
+    <div id="container-1">
+        <h1>Container 1</h1>
+        <p id='id-text-1' class='class-text-1'>Text1</p>
+        <p id='id-text-2' class='class-text-2'>Text2</p>
+    </div>
+    <div id="container-2">
+        <h1>Container 2</h1>
+        <p id='id-text-3' class='class-text-3'>Text3</p>
+        <p id='id-text-4' class='class-text-4'>Text4</p>
+    </div>
+
+    <script>
+        // Task 2 - addClass( className ) - Adds the specified class(es) 
+        //          to each element in the set of matched elements.
+        $(document).ready(function(){
+            console.log('The DOM already Loaded');
+            $('div').addClass('style-1');
+            $('#id-text-2').addClass('style-2');
+            $('.class-text-4').addClass('style-3');
+            
+            
+        });
+    </script>
+</body>
+</html>
